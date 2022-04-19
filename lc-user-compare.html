@@ -1,0 +1,533 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>HLS</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta content="telephone=no" name="format-detection">
+        <!-- This make sence for mobile browsers. It means, that content has been optimized for mobile browsers -->
+        <meta name="HandheldFriendly" content="true">
+
+
+        <!--[if (gt IE 9)|!(IE)]><!-->
+        <link href="static/css/main.min.css" rel="stylesheet" type="text/css">
+        <!--<![endif]-->
+
+        <meta property="og:title" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="500" />
+        <meta property="og:image:height" content="300" />
+        <meta property="twitter:description" content="" />
+        <link rel="image_src" href="" />
+
+
+        <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <script>
+            (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+        </script>
+
+    </head>
+
+    <body class="page">
+
+
+
+        <header class="header-lc">
+            <div class="wrapper">
+                <div class="logo">
+                    <div class="logo__img">
+                        <img src="./static/img/content/logo.svg" alt="">
+                    </div>
+                    <div class="logo__text">
+                        Маркетплейс
+                        <br>образовательных программ
+                    </div>
+                </div>
+                <div class="select">
+                    <div class="select__button">
+                        Я пользователь
+                        <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L4.75 4.75L8.5 1" stroke="#212A34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="header-lc-mobile">
+                    <div class="header-lc-menu">
+                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.25 8C3.25 7.44772 3.69772 7 4.25 7H26.75C27.3023 7 27.75 7.44772 27.75 8C27.75 8.55228 27.3023 9 26.75 9H4.25C3.69772 9 3.25 8.55228 3.25 8ZM3.25 15.5C3.25 14.9477 3.69772 14.5 4.25 14.5L26.75 14.5C27.3023 14.5 27.75 14.9477 27.75 15.5C27.75 16.0523 27.3023 16.5 26.75 16.5L4.25 16.5C3.69772 16.5 3.25 16.0523 3.25 15.5ZM4.25 22C3.69772 22 3.25 22.4477 3.25 23C3.25 23.5523 3.69772 24 4.25 24H26.75C27.3023 24 27.75 23.5523 27.75 23C27.75 22.4477 27.3023 22 26.75 22H4.25Z"
+                            fill="white" />
+                        </svg>
+                        Мой профиль
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="lc">
+            <div class="wrapper">
+                <div class="lchead">
+                    <nav class="breadcrumbs">
+                        <div class="breadcrumbs__item">
+                            <a href="">Главная</a>
+                        </div>
+                        <div class="breadcrumbs__arrow">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.75 13.125L11.875 10L8.75 6.875" stroke="#FAB706" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="breadcrumbs__item active">
+                            <span>Каталог</span>
+                        </div>
+                    </nav>
+                    <div class="lchead__title">
+                        <div class="title">
+                            Сравнение
+                        </div>
+                    </div>
+                </div>
+                <div class="lcbody">
+                    <aside class="lcaside">
+                        <nav class="lcnav">
+                            <a href="#" class="lcnav__item">На главную</a>
+                            <a href="#" class="lcnav__item">Мой профиль</a>
+                            <a href="#" class="lcnav__item">Баланс</a>
+                            <a href="#" class="lcnav__item">Получить скидку</a>
+                            <a href="#" class="lcnav__item">Результат теста</a>
+                            <a href="#" class="lcnav__item">Избранное</a>
+                            <a href="#" class="lcnav__item">Пройденные курсы</a>
+                            <a href="#" class="lcnav__item">Акции</a>
+                            <a href="#" class="lcnav__item active">Сравнение</a>
+                            <a href="#" class="lcnav__item">Корзина</a>
+                        </nav>
+                    </aside>
+                    <div class="lccontainer">
+                        <div class="lccontainer__compare">
+                            <div class="lccontainer__compare-item">
+                                <div class="course  ">
+                                    <div class="course__container">
+                                        <div class="course__head">
+                                            <div class="course__date">
+                                                24 декабря
+                                            </div>
+                                        </div>
+                                        <div class="course__title">
+                                            Курс «Специалист по рекламе РСЯ»
+                                        </div>
+                                        <div class="course__theme">
+                                            Контекстная реклама
+                                        </div>
+                                        <div class="course__price">
+                                            <div class="course__price-curent">
+                                                14 900₽
+                                            </div>
+                                            <div class="course__price-old">
+                                                30 000₽
+                                            </div>
+                                        </div>
+                                        <div class="course__author">
+                                            <div class="course__author-img">
+                                                <img src="./static/img/content/author-img2.jpg" alt="">
+                                            </div>
+                                            <div class="course__author-name">
+                                                Дьяков Александр
+                                            </div>
+                                        </div>
+                                        <div class="course__bg">
+                                            <img src="./static/img/content/course-bg3.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="course__hover">
+                                        <div class="course__head">
+                                            <div class="course__date">
+                                                24 декабря
+                                            </div>
+                                            <div class="course__icons">
+                                                <div class="icon-link">
+                                                    <!-- .active -->
+                                                    <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <rect x="4.47461" y="4.97461" width="27.0517" height="27.0517" rx="3.1492" stroke-width="1.5" />
+                                                        <path d="M11.6553 20.0879L11.6553 26.4327" stroke-width="1.5" stroke-linecap="round" />
+                                                        <path d="M18.0005 12.1543L18.0005 26.4302" stroke-width="1.5" stroke-linecap="round" />
+                                                        <path d="M24.3457 16.9141L24.3457 26.4313" stroke-width="1.5" stroke-linecap="round" />
+                                                    </svg>
+                                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <rect x="3" y="3" width="23" height="23" rx="2.55556" fill="#ED5736" />
+                                                        <path d="M9.38867 15.7773L9.38867 20.8885" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                                        <path d="M14.5 9.38867L14.5 20.8887" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                                        <path d="M19.6113 13.2227L19.6113 20.8893" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                                    </svg>
+                                                </div>
+                                                <div class="icon-link ">
+                                                    <!-- .active -->
+                                                    <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M21.5649 28.742C20.7757 29.481 20.1543 30.0296 19.7879 30.3436C18.7482 31.2272 17.2511 31.2282 16.2067 30.3433C15.8419 30.0306 15.2228 29.4789 14.4301 28.7401C13.121 27.5082 11.8108 26.1965 10.5845 24.8321L10.5845 24.8321L10.58 24.8271C9.31516 23.4451 8.14836 21.9748 7.08658 20.425L7.07533 20.4085L7.06321 20.3927C5.5384 18.4025 4.63782 15.9793 4.47919 13.4457C4.39991 11.1543 5.2531 8.93734 6.83306 7.33704C9.7525 4.39528 14.3501 4.17893 17.5215 6.83374L18.0033 7.23709L18.4848 6.83332C21.6541 4.17555 26.2525 4.38987 29.1737 7.3362C30.7448 8.93423 31.5973 11.1399 31.5211 13.4199C31.3711 15.9596 30.4692 18.3895 28.9409 20.3834L28.9284 20.3997L28.9168 20.4166C27.8537 21.9731 26.6837 23.4466 25.414 24.83L25.4104 24.8339C24.1803 26.1935 22.8748 27.5127 21.5649 28.7421L21.5649 28.742Z"
+                                                        stroke-width="1.5" />
+                                                        <path d="M21.4858 10.7188C24.1269 10.7445 25.1514 11.4357 26.2265 13.9239" stroke-width="1.5" stroke-linecap="round" />
+                                                    </svg>
+                                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.7847 23.1911C17.142 23.793 16.6345 24.241 16.3326 24.4998C15.2686 25.4048 13.7303 25.4048 12.6635 24.4998C12.3615 24.241 11.8555 23.79 11.2114 23.1896C10.1474 22.1885 9.07919 21.1194 8.07708 20.0044C7.03904 18.8702 6.0815 17.6635 5.21023 16.3918C3.90621 14.6897 3.13845 12.6194 3.00474 10.4575C2.93286 8.44635 3.68048 6.49438 5.07509 5.08215C7.6472 2.48988 11.7059 2.29764 14.5023 4.63853C17.2973 2.29468 21.3575 2.48544 23.931 5.08215C25.317 6.49142 26.0646 8.43304 25.9956 10.4353C25.8691 12.6032 25.0999 14.6793 23.793 16.3844C22.9203 17.662 21.9599 18.8716 20.9175 20.0073C19.914 21.1164 18.8501 22.1915 17.7833 23.1926L17.7847 23.1911Z"
+                                                        fill="#ED5736" />
+                                                        <path d="M17.3083 8.23047C19.4358 8.25121 20.2612 8.808 21.1272 10.8124" stroke="white" stroke-width="1.98" stroke-linecap="round" />
+                                                    </svg>
+                                                </div>
+                                                <div class="icon-link">
+                                                    <!-- .active -->
+                                                    <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M3.72412 5.4668H8.11291L8.78811 11.3185M8.78811 11.3185L11.0388 25.9478H30.0569L32.9827 11.3185H8.78811Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13.9644 31.7988L13.9801 31.7988" stroke-width="4.54714" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M25.6675 31.7988L25.6832 31.7988" stroke-width="4.54714" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M14.1855 22.291H28.3334" stroke-width="1.5" stroke-linecap="round" />
+                                                    </svg>
+                                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M26.5 9H7L9 20L23.5 20.5L26.5 9Z" fill="#ED5736" />
+                                                        <path d="M3 4H6.53542L7.07933 8.71389M7.07933 8.71389L8.89236 20.4986H24.2125L26.5694 8.71389H7.07933Z" stroke="#ED5736" stroke-width="2.19251" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M11.249 25.2129L11.2617 25.2129" stroke="#ED5736" stroke-width="3.53542" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M20.6768 25.2129L20.6894 25.2129" stroke="#ED5736" stroke-width="3.53542" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M11.0294 16.9434H22.0294" stroke="white" stroke-width="1.98" stroke-linecap="round" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="course__title">
+                                            Курс «Специалист по рекламе РСЯ»
+                                        </div>
+                                        <div class="course__text">
+                                            На страницах каталога собраны актуальные обучающие продукты от известных тренеров и истинных профессионаловие продуктыот известных тренеров и истинных продуктыот известных тренеров и истинных
+                                        </div>
+                                        <div class="course__footer">
+                                            <div class="course__price">
+                                                <div class="course__price-curent">
+                                                    14 900₽
+                                                </div>
+                                                <div class="course__price-old">
+                                                    30 000₽
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                Узнать больше
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="compare__title">
+                                    Программа «Стартани: запуск онлайн-курсов, продюсирование экспертов и запуск онлайн-школ»
+                                </div>
+                                <div class="raitingblock">
+                                    <div class="raitingblock-num">
+                                        8.03
+                                    </div>
+                                    <div class="raitingblock-text">
+                                        рейтинг курса
+                                    </div>
+                                </div>
+                                <div class="compare__parametrs">
+                                    <div class="compare__mtitle">
+                                        Формат обучения:
+                                    </div>
+                                    <div class="compare__text">
+                                        Живые вебинары
+                                    </div>
+                                </div>
+                                <div class="compare__parametrs">
+                                    <div class="compare__mtitle">
+                                        Гарантия возврата:
+                                    </div>
+                                    <div class="compare__text">
+                                        Нет
+                                    </div>
+                                </div>
+                                <div class="compare__parametrs">
+                                    <div class="compare__mtitle">
+                                        Доступ:
+                                    </div>
+                                    <div class="compare__text">
+                                        Сразу после покупки
+                                    </div>
+                                </div>
+                                <div class="compare__parametrs">
+                                    <div class="compare__mtitle">
+                                        Что вы получите?
+                                    </div>
+                                    <div class="compare__text">
+                                        <ul>
+                                            <li>Тем, кто испытывает постоянные или периодические боли</li>
+                                            <li>Тем, кто испытывает постоянные или периодические боли</li>
+                                            <li>Тем, кто испытывает постоянные или периодические боли</li>
+                                            <li>Тем, кто испытывает постоянные или периодические боли</li>
+                                            <li>Тем, кто испытывает постоянные или периодические боли</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="compare__parametrs">
+                                    <div class="compare__mtitle">
+                                        Стоимость:
+                                    </div>
+                                    <div class="lccontainer__price">
+                                        <div class="lccontainer__price-current">
+                                            1 469₽
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="compare__remove">
+                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="3" y="3" width="23" height="23" rx="2.55556" fill="#ED5736" />
+                                        <path d="M9.38867 15.7783L9.38867 20.8894" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                        <path d="M14.5 9.38867L14.5 20.8887" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                        <path d="M19.6113 13.2217L19.6113 20.8883" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                    </svg>
+                                    Удалить из сравнения
+                                </div>
+                            </div>
+                            <div class="lccontainer__compare-item">
+                                <div class="course  ">
+                                    <div class="course__container">
+                                        <div class="course__head">
+                                            <div class="course__date">
+                                                24 декабря
+                                            </div>
+                                        </div>
+                                        <div class="course__title">
+                                            Курс «Специалист по рекламе РСЯ»
+                                        </div>
+                                        <div class="course__theme">
+                                            Контекстная реклама
+                                        </div>
+                                        <div class="course__price">
+                                            <div class="course__price-curent">
+                                                14 900₽
+                                            </div>
+                                            <div class="course__price-old">
+                                                30 000₽
+                                            </div>
+                                        </div>
+                                        <div class="course__author">
+                                            <div class="course__author-img">
+                                                <img src="./static/img/content/author-img2.jpg" alt="">
+                                            </div>
+                                            <div class="course__author-name">
+                                                Дьяков Александр
+                                            </div>
+                                        </div>
+                                        <div class="course__bg">
+                                            <img src="./static/img/content/course-bg3.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="course__hover">
+                                        <div class="course__head">
+                                            <div class="course__date">
+                                                24 декабря
+                                            </div>
+                                            <div class="course__icons">
+                                                <div class="icon-link">
+                                                    <!-- .active -->
+                                                    <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <rect x="4.47461" y="4.97461" width="27.0517" height="27.0517" rx="3.1492" stroke-width="1.5" />
+                                                        <path d="M11.6553 20.0879L11.6553 26.4327" stroke-width="1.5" stroke-linecap="round" />
+                                                        <path d="M18.0005 12.1543L18.0005 26.4302" stroke-width="1.5" stroke-linecap="round" />
+                                                        <path d="M24.3457 16.9141L24.3457 26.4313" stroke-width="1.5" stroke-linecap="round" />
+                                                    </svg>
+                                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <rect x="3" y="3" width="23" height="23" rx="2.55556" fill="#ED5736" />
+                                                        <path d="M9.38867 15.7773L9.38867 20.8885" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                                        <path d="M14.5 9.38867L14.5 20.8887" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                                        <path d="M19.6113 13.2227L19.6113 20.8893" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                                    </svg>
+                                                </div>
+                                                <div class="icon-link ">
+                                                    <!-- .active -->
+                                                    <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M21.5649 28.742C20.7757 29.481 20.1543 30.0296 19.7879 30.3436C18.7482 31.2272 17.2511 31.2282 16.2067 30.3433C15.8419 30.0306 15.2228 29.4789 14.4301 28.7401C13.121 27.5082 11.8108 26.1965 10.5845 24.8321L10.5845 24.8321L10.58 24.8271C9.31516 23.4451 8.14836 21.9748 7.08658 20.425L7.07533 20.4085L7.06321 20.3927C5.5384 18.4025 4.63782 15.9793 4.47919 13.4457C4.39991 11.1543 5.2531 8.93734 6.83306 7.33704C9.7525 4.39528 14.3501 4.17893 17.5215 6.83374L18.0033 7.23709L18.4848 6.83332C21.6541 4.17555 26.2525 4.38987 29.1737 7.3362C30.7448 8.93423 31.5973 11.1399 31.5211 13.4199C31.3711 15.9596 30.4692 18.3895 28.9409 20.3834L28.9284 20.3997L28.9168 20.4166C27.8537 21.9731 26.6837 23.4466 25.414 24.83L25.4104 24.8339C24.1803 26.1935 22.8748 27.5127 21.5649 28.7421L21.5649 28.742Z"
+                                                        stroke-width="1.5" />
+                                                        <path d="M21.4858 10.7188C24.1269 10.7445 25.1514 11.4357 26.2265 13.9239" stroke-width="1.5" stroke-linecap="round" />
+                                                    </svg>
+                                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.7847 23.1911C17.142 23.793 16.6345 24.241 16.3326 24.4998C15.2686 25.4048 13.7303 25.4048 12.6635 24.4998C12.3615 24.241 11.8555 23.79 11.2114 23.1896C10.1474 22.1885 9.07919 21.1194 8.07708 20.0044C7.03904 18.8702 6.0815 17.6635 5.21023 16.3918C3.90621 14.6897 3.13845 12.6194 3.00474 10.4575C2.93286 8.44635 3.68048 6.49438 5.07509 5.08215C7.6472 2.48988 11.7059 2.29764 14.5023 4.63853C17.2973 2.29468 21.3575 2.48544 23.931 5.08215C25.317 6.49142 26.0646 8.43304 25.9956 10.4353C25.8691 12.6032 25.0999 14.6793 23.793 16.3844C22.9203 17.662 21.9599 18.8716 20.9175 20.0073C19.914 21.1164 18.8501 22.1915 17.7833 23.1926L17.7847 23.1911Z"
+                                                        fill="#ED5736" />
+                                                        <path d="M17.3083 8.23047C19.4358 8.25121 20.2612 8.808 21.1272 10.8124" stroke="white" stroke-width="1.98" stroke-linecap="round" />
+                                                    </svg>
+                                                </div>
+                                                <div class="icon-link">
+                                                    <!-- .active -->
+                                                    <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M3.72412 5.4668H8.11291L8.78811 11.3185M8.78811 11.3185L11.0388 25.9478H30.0569L32.9827 11.3185H8.78811Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M13.9644 31.7988L13.9801 31.7988" stroke-width="4.54714" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M25.6675 31.7988L25.6832 31.7988" stroke-width="4.54714" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M14.1855 22.291H28.3334" stroke-width="1.5" stroke-linecap="round" />
+                                                    </svg>
+                                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M26.5 9H7L9 20L23.5 20.5L26.5 9Z" fill="#ED5736" />
+                                                        <path d="M3 4H6.53542L7.07933 8.71389M7.07933 8.71389L8.89236 20.4986H24.2125L26.5694 8.71389H7.07933Z" stroke="#ED5736" stroke-width="2.19251" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M11.249 25.2129L11.2617 25.2129" stroke="#ED5736" stroke-width="3.53542" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M20.6768 25.2129L20.6894 25.2129" stroke="#ED5736" stroke-width="3.53542" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M11.0294 16.9434H22.0294" stroke="white" stroke-width="1.98" stroke-linecap="round" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="course__title">
+                                            Курс «Специалист по рекламе РСЯ»
+                                        </div>
+                                        <div class="course__text">
+                                            На страницах каталога собраны актуальные обучающие продукты от известных тренеров и истинных профессионаловие продуктыот известных тренеров и истинных продуктыот известных тренеров и истинных
+                                        </div>
+                                        <div class="course__footer">
+                                            <div class="course__price">
+                                                <div class="course__price-curent">
+                                                    14 900₽
+                                                </div>
+                                                <div class="course__price-old">
+                                                    30 000₽
+                                                </div>
+                                            </div>
+                                            <div class="button">
+                                                Узнать больше
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="compare__title">
+                                    Программа «Стартани: запуск онлайн-курсов, продюсирование экспертов и запуск онлайн-школ»
+                                </div>
+                                <div class="raitingblock">
+                                    <div class="raitingblock-num">
+                                        8.03
+                                    </div>
+                                    <div class="raitingblock-text">
+                                        рейтинг курса
+                                    </div>
+                                </div>
+                                <div class="compare__parametrs">
+                                    <div class="compare__mtitle">
+                                        Формат обучения:
+                                    </div>
+                                    <div class="compare__text">
+                                        Живые вебинары
+                                    </div>
+                                </div>
+                                <div class="compare__parametrs">
+                                    <div class="compare__mtitle">
+                                        Гарантия возврата:
+                                    </div>
+                                    <div class="compare__text">
+                                        Нет
+                                    </div>
+                                </div>
+                                <div class="compare__parametrs">
+                                    <div class="compare__mtitle">
+                                        Доступ:
+                                    </div>
+                                    <div class="compare__text">
+                                        Сразу после покупки
+                                    </div>
+                                </div>
+                                <div class="compare__parametrs">
+                                    <div class="compare__mtitle">
+                                        Что вы получите?
+                                    </div>
+                                    <div class="compare__text">
+                                        <ul>
+                                            <li>Тем, кто испытывает постоянные или периодические боли</li>
+                                            <li>Тем, кто испытывает постоянные или периодические боли</li>
+                                            <li>Тем, кто испытывает постоянные или периодические боли</li>
+                                            <li>Тем, кто испытывает постоянные или периодические боли</li>
+                                            <li>Тем, кто испытывает постоянные или периодические боли</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="compare__parametrs">
+                                    <div class="compare__mtitle">
+                                        Стоимость:
+                                    </div>
+                                    <div class="lccontainer__price">
+                                        <div class="lccontainer__price-current">
+                                            1 469₽
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="compare__remove">
+                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="3" y="3" width="23" height="23" rx="2.55556" fill="#ED5736" />
+                                        <path d="M9.38867 15.7783L9.38867 20.8894" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                        <path d="M14.5 9.38867L14.5 20.8887" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                        <path d="M19.6113 13.2217L19.6113 20.8883" stroke="white" stroke-width="1.98276" stroke-linecap="round" />
+                                    </svg>
+                                    Удалить из сравнения
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__contact">
+                    <div class="border-button border-button-gray">
+                        Связаться с нами
+                    </div>
+                    <div class="footer__copyright hide-mobile">
+                        High Level Skills Все права защищены © 2022
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <div class="footer__links">
+                        <a href="#" class="footer__link">
+
+        					Политика конфиденциальности и файлы cookie
+
+        				</a>
+                        <a href="#" class="footer__link">
+
+        					Правила пользования Платформой
+
+        				</a>
+                        <a href="#" class="footer__link">
+
+        					Договор оферты
+
+        				</a>
+                    </div>
+                    <div class="footer__company">
+                        <span>ООО «Информационные технологические системы»</span>
+                        <span>ОГРН 1197746586971</span>
+                        <span>107045 Россия, Москва, ул. Сретенка, 12</span>
+                        <div class="footer__copyright show-mobile">
+                            High Level Skills Все права защищены © 2022
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
+        <script src="static/js/main.min.js"></script>
+    </body>
+
+</html>
