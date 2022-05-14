@@ -2688,7 +2688,7 @@ h6 {
     top: 0;
     width: 100%;
     background: #fff;
-    z-index: 3;
+    z-index: 5;
   }
   .header-lc + * {
     margin-top: 130px;
