@@ -2346,7 +2346,6 @@ h6 {
 .logo__text {
   margin-left: 13px;
   padding-left: 13px;
-  border-left: 1px solid #B6B6B6;
   min-height: 64px;
   font-weight: 600;
   font-size: 16px;
@@ -2487,7 +2486,7 @@ h6 {
 }
 .catalog__button {
   margin-bottom: -1px;
-  padding: 11px 22px;
+  padding: 11px 20px;
   background: #FAB706;
   display: -webkit-box;
   display: -ms-flexbox;
