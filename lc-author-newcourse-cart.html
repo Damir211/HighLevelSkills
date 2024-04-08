@@ -151,7 +151,7 @@
                                 </div>
                                 <div class="lccontainer__input">
                                     <div class="input">
-                                        <input type="text" class="" placeholder="Фамилия автора">
+                                        <input type="text" class="" name="secondname" id="secondname" placeholder="Фамилия автора">
                                         <!-- .error -->
                                         <!-- .havetext -->
                                         <div class="input__error">
@@ -161,7 +161,7 @@
                                 </div>
                                 <div class="lccontainer__input">
                                     <div class="input">
-                                        <input type="text" class="" placeholder="Имя автора">
+                                        <input type="text" class="" name="firstname" id="firstname" placeholder="Имя автора">
                                         <!-- .error -->
                                         <!-- .havetext -->
                                         <div class="input__error">
@@ -184,9 +184,9 @@
                                 </label>
                                 <span class="selectfile__list">
 
-        							<span class="selectfile__item">
+        							<span class="selectfile__item hide">
 
-        								author.png
+        								<span class="selectfile__name"></span>
 
         								<span class="selectfile__delete">
 
@@ -206,7 +206,7 @@
                                 </div>
                                 <div class="lccontainer__input lccontainer__input-fullwidth">
                                     <div class="input">
-                                        <input type="text" class="" placeholder="Название курса">
+                                        <input type="text" class="" name="cours-name" id="cours-name" placeholder="Название курса">
                                         <!-- .error -->
                                         <!-- .havetext -->
                                         <div class="input__error">
@@ -216,7 +216,7 @@
                                 </div>
                                 <div class="lccontainer__input lccontainer__input-fullwidth">
                                     <div class="textarea">
-                                        <textarea name="" placeholder="Описание курса" id="" cols="30" rows="10"></textarea>
+                                        <textarea name="cours-text" placeholder="Описание курса" id="cours-text" cols="30" rows="10"></textarea>
                                         <!-- .error -->
                                         <!-- .havetext -->
                                         <div class="textarea__error">
@@ -226,7 +226,7 @@
                                 </div>
                                 <div class="lccontainer__input lccontainer__input-fullwidth">
                                     <div class="input">
-                                        <input type="text" class="" placeholder="Тематика курса">
+                                        <input type="text" class="" name="cours-theme" id="cours-theme" placeholder="Тематика курса">
                                         <!-- .error -->
                                         <!-- .havetext -->
                                         <div class="input__error">
@@ -246,7 +246,7 @@
                                     </div>
                                 </div>
                                 <label class="checkbox">
-                                    <input type="checkbox" checked>
+                                    <input type="checkbox" id="garanty" checked>
                                     <span>Гарантия возврата</span>
                                 </label>
                                 <label class="checkbox">
@@ -300,6 +300,7 @@
                                         <div class="course__bg">
                                             <img src="" alt="">
                                         </div>
+                                        <div class="course__tag course__tag--garanty">Гарантия возврата</div>
                                     </div>
                                     <div class="course__hover">
                                         <div class="course__head">
@@ -359,6 +360,7 @@
                                         <div class="course__bg">
                                             <img src="" alt="">
                                         </div>
+                                        <div class="course__tag course__tag--garanty">Гарантия возврата</div>
                                     </div>
                                     <div class="course__hover">
                                         <div class="course__head">
@@ -453,7 +455,7 @@
                                     </div>
                                     <div class="lccontainer__input">
                                         <div class="input">
-                                            <input type="text" class="" placeholder="Стоимость курса">
+                                            <input type="text" class="" id="price-course" placeholder="Стоимость курса">
                                             <!-- .error -->
                                             <!-- .havetext -->
                                             <div class="input__error">
@@ -463,7 +465,7 @@
                                     </div>
                                     <div class="lccontainer__input">
                                         <div class="input">
-                                            <input type="text" class="" placeholder="Введите скидку на курс (если требуется)">
+                                            <input type="text" class="" id="price-sale" placeholder="Введите скидку на курс (если требуется)">
                                             <!-- .error -->
                                             <!-- .havetext -->
                                             <div class="input__error">
@@ -639,7 +641,8 @@
 
 
         <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
-        <script src="static/js/main.min.js"></script>
+        <script src="./static/js/preview-items.js"></script>
+        <script src="./static/js/main.min.js"></script>
     </body>
 
 </html>
